@@ -1,0 +1,15 @@
+ @import '../../../application'; 
+
+
+
+.NavigationItem a{    
+    padding: 20px 5px;  
+    text-decoration: none;
+}
+
+.NavigationItem a:hover{
+    background-color: $navigation-item-hover-color;
+    cursor: pointer;
+}
+
+

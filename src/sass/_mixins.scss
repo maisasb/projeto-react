@@ -1,0 +1,10 @@
+@mixin input-style {
+    border-radius: 3px;
+    border: 1px solid $input-border-color;
+    height: 20px;
+    box-shadow: 1px 1px #ccc;
+    width: 100%;
+    padding: 0 5px;
+}
+
+

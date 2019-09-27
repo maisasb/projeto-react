@@ -1,0 +1,33 @@
+@import '../../../application';
+
+.Input {
+    @include input-style;
+}
+
+.InputLabelRow{
+    display:flex;
+    padding: 0px 10px;
+}
+
+.InputDisabled {
+    background-color: #efefef;
+    cursor: not-allowed;
+}
+
+.InputReadOnly {
+    border:none;
+    box-shadow: none;
+}
+
+.InputReadOnly:focus {
+    outline:none;    
+}
+
+.Input.big {
+    height: 30px;
+}
+
+.Label {
+    margin-right: 5px;
+    margin-top:5px;
+}

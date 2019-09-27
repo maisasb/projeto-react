@@ -1,0 +1,19 @@
+@import '../../application';
+
+.Header {
+    background-color:$header-color;
+    height: 60px;  
+    display: flex;      
+    width: 100%;
+}
+
+.Header ul {
+    list-style: none;      
+}
+
+
+.HeaderTitle{
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}

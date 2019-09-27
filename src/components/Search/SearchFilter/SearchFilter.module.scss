@@ -1,0 +1,43 @@
+@import '../../../application';
+
+.SearchFilter{
+    width: 700px;
+    margin: 0 auto;
+}
+
+.FilterLabel {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 18px;    
+}
+
+.BoxHeader{
+    font-size: 18px;
+    text-transform: uppercase;        
+    background-color: $box-header-background;
+    padding: 5px;
+    border-radius: 3px 3px 0 0;
+    border: 1px solid $box-header-border-color;
+}
+
+.Box {
+    border: 1px solid $box-border-color;
+    background: $box-background;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.Row {
+    display: flex;
+    width: 100%;
+}
+.Column {
+    width: 100%;
+}
+
+@media (max-width: 750px){
+    .SearchFilter {
+        width: 100%;
+    }
+}

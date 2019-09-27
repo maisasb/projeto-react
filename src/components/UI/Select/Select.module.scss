@@ -1,0 +1,9 @@
+@import '../../../application';
+
+.Select {
+    @include input-style;
+}
+
+.Select.big {
+    height: 30px;
+}
